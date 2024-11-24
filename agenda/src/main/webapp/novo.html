@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Agenda de contatos</title>
+<link rel="icon" href="imagens/phone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Pagina do formulário  -->
+	<div class="containner">
+		<h1>Criar novo contato</h1>
+			<!-- Definindo o nome  do forms e o nome daação dele que é insert, (pode qualquer nome) ela será usada na class Controller  -->
+		<form name ="furmularioContato" action="insert">
+			<!-- table = tabela tr = coluna td = linha   -->
+			<table>
+				<tr>
+					<!-- input = nome -->
+					<td> <input type ="text" name = "nome" placeholder="Nome" class = "nomeEEmail"> </td>
+				</tr>
+				<tr>
+					<!-- input = telefone -->
+					<td> <input type = "text" name = "telefone" placeholder = "Telefone" class = "fone"></td>
+				</tr>
+				
+				<tr>
+					<!-- input = email -->
+					<td> <input type = "text" name = "email" placeholder = "Email" class = "nomeEEmail"></td>
+				</tr>
+			</table>
+				<!-- input = botao responsavel por pegar os dados dos outros inputs  -->
+			<input type = "button" value="Adicionar" class = "botaoAdicionar" onclick="validar()">
+		</form>
+	</div>
+
+	<script src="scripts/conferencia.js"></script>
+</body>
+</html>

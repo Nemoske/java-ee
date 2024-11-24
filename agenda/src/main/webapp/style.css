@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+	;
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Poppins", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.containner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 30%;
+	border-style: solid;
+	border-color: #66bbff;
+	border-radius: 20px;
+	height: 40%;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.relatorio{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+	align-items: center;
+}
+
+
+
+.link {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: black;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+}
+
+.botao2{
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: black;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+	width: 30%;
+}
+
+.botao3{
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: black;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+	width: 45%;
+	flex-direction: row;
+}
+
+
+
+
+.botaoAdicionar {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: black;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+	cursor: pointer;
+}
+
+form{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 35px;
+	
+}
+
+.nomeEEmail{
+	height: 20px;
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border: 1px solid #66bbff;
+}
+
+.fone{
+	height: 20px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border: 1px solid #66bbff;
+}
+
+#id_contato{
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border: 1px solid #ff0000;
+	text-align: center;
+}
+
+
+
+
+
+#tabelaContatos{
+	margin-top: 30px;
+	
+}
+
+#tabelaContatos th{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+}
+
+#tabelaContatos td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
